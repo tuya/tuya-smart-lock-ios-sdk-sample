@@ -1,0 +1,492 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "2Bw-Ak-sO9.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"EKey name\"; ObjectID = \"2Bw-Ak-sO9\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "EKey name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电子钥匙名称"
+          }
+        }
+      }
+    },
+    "5Nj-MG-oel.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Account\"; ObjectID = \"5Nj-MG-oel\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Account"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "账号"
+          }
+        }
+      }
+    },
+    "6HA-nN-LGZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"6HA-nN-LGZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "9QZ-AO-nom.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Start time\"; ObjectID = \"9QZ-AO-nom\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Start time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始时间"
+          }
+        }
+      }
+    },
+    "AAL-Cx-168.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"End time\"; ObjectID = \"AAL-Cx-168\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "End time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "结束时间"
+          }
+        }
+      }
+    },
+    "b4T-cs-DnS.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Period\"; ObjectID = \"b4T-cs-DnS\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Period"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "循环周期"
+          }
+        }
+      }
+    },
+    "bX5-iQ-yYE.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"EKey name\"; ObjectID = \"bX5-iQ-yYE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "EKey name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电子钥匙名称"
+          }
+        }
+      }
+    },
+    "C8z-eI-PzJ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Effective time\"; ObjectID = \"C8z-eI-PzJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Effective time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生效时间"
+          }
+        }
+      }
+    },
+    "ez3-ln-cVn.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Type\"; ObjectID = \"ez3-ln-cVn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Type"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "类型"
+          }
+        }
+      }
+    },
+    "f3l-UR-G8z.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"f3l-UR-G8z\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "FG5-34-SnQ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Invalid time\"; ObjectID = \"FG5-34-SnQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Invalid time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失效时间"
+          }
+        }
+      }
+    },
+    "gNm-c1-YTI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Account\"; ObjectID = \"gNm-c1-YTI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Account"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "账号"
+          }
+        }
+      }
+    },
+    "hhf-M7-2Tu.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Start time\"; ObjectID = \"hhf-M7-2Tu\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Start time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始时间"
+          }
+        }
+      }
+    },
+    "isg-rR-K1c.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Effective time\"; ObjectID = \"isg-rR-K1c\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Effective time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生效时间"
+          }
+        }
+      }
+    },
+    "iZj-Cn-SHX.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Update\"; ObjectID = \"iZj-Cn-SHX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Update"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点击更新"
+          }
+        }
+      }
+    },
+    "KLs-Jg-8Pa.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Account\"; ObjectID = \"KLs-Jg-8Pa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Account"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "账号"
+          }
+        }
+      }
+    },
+    "ksM-bK-AuU.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Creater\"; ObjectID = \"ksM-bK-AuU\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Creater"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建者"
+          }
+        }
+      }
+    },
+    "NRw-Zz-YaA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Name\"; ObjectID = \"NRw-Zz-YaA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名称"
+          }
+        }
+      }
+    },
+    "ob3-if-UJH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"ob3-if-UJH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "OfF-S7-sAD.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Invalid time\"; ObjectID = \"OfF-S7-sAD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Invalid time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失效时间"
+          }
+        }
+      }
+    },
+    "R1a-rj-Ga4.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"EKey name\"; ObjectID = \"R1a-rj-Ga4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "EKey name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电子钥匙名称"
+          }
+        }
+      }
+    },
+    "Shm-EK-Ptg.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Account\"; ObjectID = \"Shm-EK-Ptg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Account"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "账号"
+          }
+        }
+      }
+    },
+    "T95-ub-9RD.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"End time\"; ObjectID = \"T95-ub-9RD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "End time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "结束时间"
+          }
+        }
+      }
+    },
+    "uXD-Uz-bio.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Effective time\"; ObjectID = \"uXD-Uz-bio\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Effective time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生效时间"
+          }
+        }
+      }
+    },
+    "vA7-kh-7qp.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Invalid time\"; ObjectID = \"vA7-kh-7qp\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Invalid time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失效时间"
+          }
+        }
+      }
+    },
+    "Vnu-Ao-TFj.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"Vnu-Ao-TFj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "xbU-DM-cUg.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"xbU-DM-cUg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "zUF-ab-dcS.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Period\"; ObjectID = \"zUF-ab-dcS\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Period"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "循环周期"
+          }
+        }
+      }
+    },
+    "zWG-IL-MZv.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"zWG-IL-MZv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

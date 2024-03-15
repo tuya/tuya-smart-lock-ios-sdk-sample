@@ -1,0 +1,384 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0G2-qy-bFX.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Register\"; ObjectID = \"0G2-qy-bFX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Register"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "注册"
+          }
+        }
+      }
+    },
+    "0Qz-La-oYh.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Email Address or Phone Number\"; ObjectID = \"0Qz-La-oYh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Email Address or Phone Number"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "邮箱或是手机号"
+          }
+        }
+      }
+    },
+    "6ZB-LM-WNo.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Email Address or Phone Number\"; ObjectID = \"6ZB-LM-WNo\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Email Address or Phone Number"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "邮箱或是手机号"
+          }
+        }
+      }
+    },
+    "8dI-Me-up7.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Reset Password\"; ObjectID = \"8dI-Me-up7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset Password"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置密码"
+          }
+        }
+      }
+    },
+    "DgA-Qi-8k7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Forget Password?\"; ObjectID = \"DgA-Qi-8k7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Forget Password?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "忘记密码"
+          }
+        }
+      }
+    },
+    "dmI-5C-Ej8.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Register\"; ObjectID = \"dmI-5C-Ej8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Register"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "注册"
+          }
+        }
+      }
+    },
+    "eYm-X4-pFJ.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Password\"; ObjectID = \"eYm-X4-pFJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Password"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码"
+          }
+        }
+      }
+    },
+    "Ffr-IT-avV.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Verification Code\"; ObjectID = \"Ffr-IT-avV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Verification Code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "验证码"
+          }
+        }
+      }
+    },
+    "jNx-Nw-Bag.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Verification Code\"; ObjectID = \"jNx-Nw-Bag\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Verification Code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "验证码"
+          }
+        }
+      }
+    },
+    "JWu-Lu-DId.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Send Verification Code\"; ObjectID = \"JWu-Lu-DId\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Send Verification Code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发送验证码"
+          }
+        }
+      }
+    },
+    "k7Z-L9-7PN.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Country Code\"; ObjectID = \"k7Z-L9-7PN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Country Code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "国家码"
+          }
+        }
+      }
+    },
+    "kEH-w9-yzz.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Login\"; ObjectID = \"kEH-w9-yzz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Login"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登录"
+          }
+        }
+      }
+    },
+    "KlF-1S-osD.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Password\"; ObjectID = \"KlF-1S-osD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Password"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码"
+          }
+        }
+      }
+    },
+    "kzP-Gp-pvY.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Send Verification Code\"; ObjectID = \"kzP-Gp-pvY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Send Verification Code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发送验证码"
+          }
+        }
+      }
+    },
+    "NQQ-Pz-3mk.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Register\"; ObjectID = \"NQQ-Pz-3mk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Register"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "注册"
+          }
+        }
+      }
+    },
+    "OPC-D6-aDt.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Country Code\"; ObjectID = \"OPC-D6-aDt\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Country Code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "国家码"
+          }
+        }
+      }
+    },
+    "tmd-dx-fqr.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Country Code\"; ObjectID = \"tmd-dx-fqr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Country Code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "国际码"
+          }
+        }
+      }
+    },
+    "Tmz-IU-mNw.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Email Address or Phone Number\"; ObjectID = \"Tmz-IU-mNw\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Email Address or Phone Number"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "邮箱或是手机号"
+          }
+        }
+      }
+    },
+    "uH1-KS-vd6.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Reset\"; ObjectID = \"uH1-KS-vd6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reset"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置"
+          }
+        }
+      }
+    },
+    "yCi-uu-Voj.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"New Password\"; ObjectID = \"yCi-uu-Voj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "New Password"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新密码"
+          }
+        }
+      }
+    },
+    "yoX-Qn-PEK.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Login\"; ObjectID = \"yoX-Qn-PEK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Login"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登录"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

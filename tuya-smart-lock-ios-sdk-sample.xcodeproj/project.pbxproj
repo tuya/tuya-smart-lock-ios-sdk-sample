@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ACC30F0EA1201A1C1CF1303 /* libPods-tuya-smart-lock-ios-sdk-sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7603B55D5D67706A81B0962 /* libPods-tuya-smart-lock-ios-sdk-sample.a */; };
+		7A058A292B973AF300002DEB /* BLEDeviceActiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058A282B973AF200002DEB /* BLEDeviceActiveViewController.m */; };
+		7A058A2D2B980D7100002DEB /* MeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058A2C2B980D7100002DEB /* MeTableViewController.m */; };
+		7A4AF5672B8C966B001E7944 /* Ekey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4AF5692B8C966B001E7944 /* Ekey.storyboard */; };
+		7A4AF56D2B8C96CA001E7944 /* EkeyDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4AF56C2B8C96CA001E7944 /* EkeyDetailTableViewController.m */; };
+		7A6699642B9ABA7200891EC4 /* LoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6699622B9ABA7200891EC4 /* LoginTableViewController.m */; };
+		7A6699652B9ABA7200891EC4 /* RegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6699602B9ABA7200891EC4 /* RegisterTableViewController.m */; };
+		7A6699662B9ABA7200891EC4 /* ResetPasswordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A66995C2B9ABA7200891EC4 /* ResetPasswordTableViewController.m */; };
+		7A66996A2B9ABAE900891EC4 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6699682B9ABAE900891EC4 /* Alert.m */; };
+		7A66996C2B9ABE1300891EC4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A66995A2B9ABA4C00891EC4 /* Login.storyboard */; };
+		7A77F4C62B732785002E780D /* PasswordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A77F4C52B732785002E780D /* PasswordListViewController.m */; };
+		7A77F4C92B736029002E780D /* PasswordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A77F4C82B736029002E780D /* PasswordDetailViewController.m */; };
+		7A8ACC882B95ED00004CC4E4 /* DeviceLogListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ACC872B95ED00004CC4E4 /* DeviceLogListViewController.m */; };
+		7A8ACC8B2B95F02B004CC4E4 /* LogCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ACC8A2B95F02B004CC4E4 /* LogCategoryTableViewController.m */; };
+		7A8ACC8F2B96BA53004CC4E4 /* SiteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ACC8E2B96BA53004CC4E4 /* SiteListViewController.m */; };
+		7A8D34892B8F4081000D7328 /* CreateLimitEKeyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D34882B8F4081000D7328 /* CreateLimitEKeyTableViewController.m */; };
+		7AA25A1C2BA19F120007F9AB /* NSDate+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA25A1B2BA19F120007F9AB /* NSDate+Addition.m */; };
+		7AA25A212BA1A3FC0007F9AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA25A202BA1A3FC0007F9AB /* Main.storyboard */; };
+		7ABD0B802B97041D005883D2 /* ViewDetectConfigure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ABD0B7F2B97041D005883D2 /* ViewDetectConfigure.plist */; };
+		7ABD0B832B970972005883D2 /* SiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD0B822B970972005883D2 /* SiteManager.m */; };
+		7AC141D22B83766300DC7E0F /* Password.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC141D42B83766300DC7E0F /* Password.storyboard */; };
+		7AC141D82B837B9A00DC7E0F /* CreateLimitOnlinePasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC141D72B837B9A00DC7E0F /* CreateLimitOnlinePasswordController.m */; };
+		7AC141DB2B837D2C00DC7E0F /* CreateLimitOfflinePasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC141DA2B837D2C00DC7E0F /* CreateLimitOfflinePasswordController.m */; };
+		7AC141DE2B837E5500DC7E0F /* PeriodSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC141DD2B837E5500DC7E0F /* PeriodSelectTableViewController.m */; };
+		7AC141E02B84722D00DC7E0F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 7AC141DF2B84722D00DC7E0F /* Localizable.xcstrings */; };
+		7ACF90FC2B5FC32C003F3C42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF90FB2B5FC32C003F3C42 /* AppDelegate.m */; };
+		7ACF90FF2B5FC32D003F3C42 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF90FE2B5FC32C003F3C42 /* SceneDelegate.m */; };
+		7ACF91022B5FC32D003F3C42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF91012B5FC32D003F3C42 /* ViewController.m */; };
+		7ACF91072B5FC32E003F3C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF91062B5FC32E003F3C42 /* Assets.xcassets */; };
+		7ACF910A2B5FC32E003F3C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF91082B5FC32E003F3C42 /* LaunchScreen.storyboard */; };
+		7ACF910D2B5FC32E003F3C42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF910C2B5FC32E003F3C42 /* main.m */; };
+		7ACF911F2B5FE28A003F3C42 /* Device.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF91212B5FE28A003F3C42 /* Device.storyboard */; };
+		7ACF91252B5FE2BE003F3C42 /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF91242B5FE2BE003F3C42 /* DeviceListViewController.m */; };
+		7ACF913B2B60FA64003F3C42 /* DigitalKeyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF913A2B60FA64003F3C42 /* DigitalKeyListViewController.m */; };
+		7ACF913E2B611C34003F3C42 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF913D2B611C34003F3C42 /* DeviceDetailViewController.m */; };
+		7AD95EC12B906660002BF19E /* CreatePermanentEKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD95EC02B906660002BF19E /* CreatePermanentEKeyViewController.m */; };
+		7AD95EC42B906689002BF19E /* CreateOnceEKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD95EC32B906689002BF19E /* CreateOnceEKeyViewController.m */; };
+		7AD95ED82B95E37B002BF19E /* Log.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD95EDA2B95E37B002BF19E /* Log.storyboard */; };
+		7AEDB5AF2B983DF80013F1A6 /* CreateSiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEDB5AE2B983DF80013F1A6 /* CreateSiteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A058A272B973AF200002DEB /* BLEDeviceActiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEDeviceActiveViewController.h; sourceTree = "<group>"; };
+		7A058A282B973AF200002DEB /* BLEDeviceActiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEDeviceActiveViewController.m; sourceTree = "<group>"; };
+		7A058A2B2B980D7100002DEB /* MeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeTableViewController.h; sourceTree = "<group>"; };
+		7A058A2C2B980D7100002DEB /* MeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeTableViewController.m; sourceTree = "<group>"; };
+		7A4AF5682B8C966B001E7944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Ekey.storyboard; sourceTree = "<group>"; };
+		7A4AF56A2B8C966B001E7944 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Ekey.xcstrings; sourceTree = "<group>"; };
+		7A4AF56B2B8C96CA001E7944 /* EkeyDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EkeyDetailTableViewController.h; sourceTree = "<group>"; };
+		7A4AF56C2B8C96CA001E7944 /* EkeyDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EkeyDetailTableViewController.m; sourceTree = "<group>"; };
+		7A6699592B9ABA4C00891EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		7A66995B2B9ABA4C00891EC4 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Login.xcstrings; sourceTree = "<group>"; };
+		7A66995C2B9ABA7200891EC4 /* ResetPasswordTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordTableViewController.m; sourceTree = "<group>"; };
+		7A66995F2B9ABA7200891EC4 /* ResetPasswordTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetPasswordTableViewController.h; sourceTree = "<group>"; };
+		7A6699602B9ABA7200891EC4 /* RegisterTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterTableViewController.m; sourceTree = "<group>"; };
+		7A6699612B9ABA7200891EC4 /* LoginTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTableViewController.h; sourceTree = "<group>"; };
+		7A6699622B9ABA7200891EC4 /* LoginTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewController.m; sourceTree = "<group>"; };
+		7A6699632B9ABA7200891EC4 /* RegisterTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterTableViewController.h; sourceTree = "<group>"; };
+		7A6699682B9ABAE900891EC4 /* Alert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
+		7A6699692B9ABAE900891EC4 /* Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		7A77F4C42B732785002E780D /* PasswordListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordListViewController.h; sourceTree = "<group>"; };
+		7A77F4C52B732785002E780D /* PasswordListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordListViewController.m; sourceTree = "<group>"; };
+		7A77F4C72B736029002E780D /* PasswordDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordDetailViewController.h; sourceTree = "<group>"; };
+		7A77F4C82B736029002E780D /* PasswordDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordDetailViewController.m; sourceTree = "<group>"; };
+		7A8ACC862B95ED00004CC4E4 /* DeviceLogListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceLogListViewController.h; sourceTree = "<group>"; };
+		7A8ACC872B95ED00004CC4E4 /* DeviceLogListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceLogListViewController.m; sourceTree = "<group>"; };
+		7A8ACC892B95F02B004CC4E4 /* LogCategoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogCategoryTableViewController.h; sourceTree = "<group>"; };
+		7A8ACC8A2B95F02B004CC4E4 /* LogCategoryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogCategoryTableViewController.m; sourceTree = "<group>"; };
+		7A8ACC8D2B96BA53004CC4E4 /* SiteListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiteListViewController.h; sourceTree = "<group>"; };
+		7A8ACC8E2B96BA53004CC4E4 /* SiteListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiteListViewController.m; sourceTree = "<group>"; };
+		7A8D34872B8F4081000D7328 /* CreateLimitEKeyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateLimitEKeyTableViewController.h; sourceTree = "<group>"; };
+		7A8D34882B8F4081000D7328 /* CreateLimitEKeyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateLimitEKeyTableViewController.m; sourceTree = "<group>"; };
+		7AA25A1A2BA19F120007F9AB /* NSDate+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Addition.h"; sourceTree = "<group>"; };
+		7AA25A1B2BA19F120007F9AB /* NSDate+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Addition.m"; sourceTree = "<group>"; };
+		7AA25A1F2BA1A3FC0007F9AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA25A222BA1A3FC0007F9AB /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Main.xcstrings; sourceTree = "<group>"; };
+		7ABD0B7F2B97041D005883D2 /* ViewDetectConfigure.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ViewDetectConfigure.plist; sourceTree = "<group>"; };
+		7ABD0B812B970972005883D2 /* SiteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiteManager.h; sourceTree = "<group>"; };
+		7ABD0B822B970972005883D2 /* SiteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiteManager.m; sourceTree = "<group>"; };
+		7AC141D32B83766300DC7E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Password.storyboard; sourceTree = "<group>"; };
+		7AC141D52B83766400DC7E0F /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Password.xcstrings; sourceTree = "<group>"; };
+		7AC141D62B837B9A00DC7E0F /* CreateLimitOnlinePasswordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateLimitOnlinePasswordController.h; sourceTree = "<group>"; };
+		7AC141D72B837B9A00DC7E0F /* CreateLimitOnlinePasswordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateLimitOnlinePasswordController.m; sourceTree = "<group>"; };
+		7AC141D92B837D2C00DC7E0F /* CreateLimitOfflinePasswordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateLimitOfflinePasswordController.h; sourceTree = "<group>"; };
+		7AC141DA2B837D2C00DC7E0F /* CreateLimitOfflinePasswordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateLimitOfflinePasswordController.m; sourceTree = "<group>"; };
+		7AC141DC2B837E5500DC7E0F /* PeriodSelectTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeriodSelectTableViewController.h; sourceTree = "<group>"; };
+		7AC141DD2B837E5500DC7E0F /* PeriodSelectTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriodSelectTableViewController.m; sourceTree = "<group>"; };
+		7AC141DF2B84722D00DC7E0F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		7ACF90F72B5FC32C003F3C42 /* tuya-smart-lock-ios-sdk-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tuya-smart-lock-ios-sdk-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACF90FA2B5FC32C003F3C42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ACF90FB2B5FC32C003F3C42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ACF90FD2B5FC32C003F3C42 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7ACF90FE2B5FC32C003F3C42 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7ACF91002B5FC32D003F3C42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7ACF91012B5FC32D003F3C42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7ACF91062B5FC32E003F3C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ACF91092B5FC32E003F3C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ACF910B2B5FC32E003F3C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACF910C2B5FC32E003F3C42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ACF911C2B5FCBDC003F3C42 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7ACF91202B5FE28A003F3C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Device.storyboard; sourceTree = "<group>"; };
+		7ACF91222B5FE28A003F3C42 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Device.xcstrings; sourceTree = "<group>"; };
+		7ACF91232B5FE2BE003F3C42 /* DeviceListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceListViewController.h; sourceTree = "<group>"; };
+		7ACF91242B5FE2BE003F3C42 /* DeviceListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceListViewController.m; sourceTree = "<group>"; };
+		7ACF91392B60FA64003F3C42 /* DigitalKeyListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DigitalKeyListViewController.h; sourceTree = "<group>"; };
+		7ACF913A2B60FA64003F3C42 /* DigitalKeyListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalKeyListViewController.m; sourceTree = "<group>"; };
+		7ACF913C2B611C34003F3C42 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
+		7ACF913D2B611C34003F3C42 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
+		7AD95EBF2B906660002BF19E /* CreatePermanentEKeyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatePermanentEKeyViewController.h; sourceTree = "<group>"; };
+		7AD95EC02B906660002BF19E /* CreatePermanentEKeyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatePermanentEKeyViewController.m; sourceTree = "<group>"; };
+		7AD95EC22B906689002BF19E /* CreateOnceEKeyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateOnceEKeyViewController.h; sourceTree = "<group>"; };
+		7AD95EC32B906689002BF19E /* CreateOnceEKeyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateOnceEKeyViewController.m; sourceTree = "<group>"; };
+		7AD95ED92B95E37B002BF19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Log.storyboard; sourceTree = "<group>"; };
+		7AD95EDB2B95E37B002BF19E /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Log.xcstrings; sourceTree = "<group>"; };
+		7AEDB5AD2B983DF80013F1A6 /* CreateSiteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateSiteViewController.h; sourceTree = "<group>"; };
+		7AEDB5AE2B983DF80013F1A6 /* CreateSiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateSiteViewController.m; sourceTree = "<group>"; };
+		944BF0B1F52AC315C76ADB8A /* Pods-tuya-smart-lock-ios-sdk-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuya-smart-lock-ios-sdk-sample.release.xcconfig"; path = "Target Support Files/Pods-tuya-smart-lock-ios-sdk-sample/Pods-tuya-smart-lock-ios-sdk-sample.release.xcconfig"; sourceTree = "<group>"; };
+		CEF85EB71E65C3C7AC66B460 /* Pods-tuya-smart-lock-ios-sdk-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuya-smart-lock-ios-sdk-sample.debug.xcconfig"; path = "Target Support Files/Pods-tuya-smart-lock-ios-sdk-sample/Pods-tuya-smart-lock-ios-sdk-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		D7603B55D5D67706A81B0962 /* libPods-tuya-smart-lock-ios-sdk-sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tuya-smart-lock-ios-sdk-sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ACF90F42B5FC32C003F3C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACC30F0EA1201A1C1CF1303 /* libPods-tuya-smart-lock-ios-sdk-sample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DDF504CB347D68AD7324213 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEF85EB71E65C3C7AC66B460 /* Pods-tuya-smart-lock-ios-sdk-sample.debug.xcconfig */,
+				944BF0B1F52AC315C76ADB8A /* Pods-tuya-smart-lock-ios-sdk-sample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A058A2A2B980D6300002DEB /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				7A058A2B2B980D7100002DEB /* MeTableViewController.h */,
+				7A058A2C2B980D7100002DEB /* MeTableViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		7A4AF5662B8C9422001E7944 /* Ekey */ = {
+			isa = PBXGroup;
+			children = (
+				7ACF91392B60FA64003F3C42 /* DigitalKeyListViewController.h */,
+				7ACF913A2B60FA64003F3C42 /* DigitalKeyListViewController.m */,
+				7A4AF56B2B8C96CA001E7944 /* EkeyDetailTableViewController.h */,
+				7A4AF56C2B8C96CA001E7944 /* EkeyDetailTableViewController.m */,
+				7A8D34872B8F4081000D7328 /* CreateLimitEKeyTableViewController.h */,
+				7A8D34882B8F4081000D7328 /* CreateLimitEKeyTableViewController.m */,
+				7AD95EBF2B906660002BF19E /* CreatePermanentEKeyViewController.h */,
+				7AD95EC02B906660002BF19E /* CreatePermanentEKeyViewController.m */,
+				7AD95EC22B906689002BF19E /* CreateOnceEKeyViewController.h */,
+				7AD95EC32B906689002BF19E /* CreateOnceEKeyViewController.m */,
+			);
+			path = Ekey;
+			sourceTree = "<group>";
+		};
+		7A8ACC852B95ECD3004CC4E4 /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				7A8ACC862B95ED00004CC4E4 /* DeviceLogListViewController.h */,
+				7A8ACC872B95ED00004CC4E4 /* DeviceLogListViewController.m */,
+				7A8ACC892B95F02B004CC4E4 /* LogCategoryTableViewController.h */,
+				7A8ACC8A2B95F02B004CC4E4 /* LogCategoryTableViewController.m */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
+		7A8ACC8C2B96BA49004CC4E4 /* Site */ = {
+			isa = PBXGroup;
+			children = (
+				7A8ACC8D2B96BA53004CC4E4 /* SiteListViewController.h */,
+				7A8ACC8E2B96BA53004CC4E4 /* SiteListViewController.m */,
+				7AEDB5AD2B983DF80013F1A6 /* CreateSiteViewController.h */,
+				7AEDB5AE2B983DF80013F1A6 /* CreateSiteViewController.m */,
+				7ABD0B812B970972005883D2 /* SiteManager.h */,
+				7ABD0B822B970972005883D2 /* SiteManager.m */,
+			);
+			path = Site;
+			sourceTree = "<group>";
+		};
+		7AC141D12B83749100DC7E0F /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				7A77F4C42B732785002E780D /* PasswordListViewController.h */,
+				7A77F4C52B732785002E780D /* PasswordListViewController.m */,
+				7A77F4C72B736029002E780D /* PasswordDetailViewController.h */,
+				7A77F4C82B736029002E780D /* PasswordDetailViewController.m */,
+				7AC141D62B837B9A00DC7E0F /* CreateLimitOnlinePasswordController.h */,
+				7AC141D72B837B9A00DC7E0F /* CreateLimitOnlinePasswordController.m */,
+				7AC141D92B837D2C00DC7E0F /* CreateLimitOfflinePasswordController.h */,
+				7AC141DA2B837D2C00DC7E0F /* CreateLimitOfflinePasswordController.m */,
+				7AC141DC2B837E5500DC7E0F /* PeriodSelectTableViewController.h */,
+				7AC141DD2B837E5500DC7E0F /* PeriodSelectTableViewController.m */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		7ACF90EE2B5FC32C003F3C42 = {
+			isa = PBXGroup;
+			children = (
+				7ACF90F92B5FC32C003F3C42 /* tuya-smart-lock-ios-sdk-sample */,
+				7ACF90F82B5FC32C003F3C42 /* Products */,
+				3DDF504CB347D68AD7324213 /* Pods */,
+				A45086549E21795CFC3EF139 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7ACF90F82B5FC32C003F3C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ACF90F72B5FC32C003F3C42 /* tuya-smart-lock-ios-sdk-sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ACF90F92B5FC32C003F3C42 /* tuya-smart-lock-ios-sdk-sample */ = {
+			isa = PBXGroup;
+			children = (
+				7ACF90FA2B5FC32C003F3C42 /* AppDelegate.h */,
+				7ACF90FB2B5FC32C003F3C42 /* AppDelegate.m */,
+				7ACF90FD2B5FC32C003F3C42 /* SceneDelegate.h */,
+				7ACF90FE2B5FC32C003F3C42 /* SceneDelegate.m */,
+				7ACF91002B5FC32D003F3C42 /* ViewController.h */,
+				7ACF91012B5FC32D003F3C42 /* ViewController.m */,
+				7A6699692B9ABAE900891EC4 /* Alert.h */,
+				7A6699682B9ABAE900891EC4 /* Alert.m */,
+				7AA25A1A2BA19F120007F9AB /* NSDate+Addition.h */,
+				7AA25A1B2BA19F120007F9AB /* NSDate+Addition.m */,
+				7ABD0B7F2B97041D005883D2 /* ViewDetectConfigure.plist */,
+				7A058A2A2B980D6300002DEB /* Me */,
+				7A8ACC8C2B96BA49004CC4E4 /* Site */,
+				7A8ACC852B95ECD3004CC4E4 /* Logs */,
+				7AC141DF2B84722D00DC7E0F /* Localizable.xcstrings */,
+				7AC141D12B83749100DC7E0F /* Password */,
+				7ACF91382B60E579003F3C42 /* Device */,
+				7ACF91262B5FE38E003F3C42 /* Login */,
+				7A4AF5662B8C9422001E7944 /* Ekey */,
+				7AA25A202BA1A3FC0007F9AB /* Main.storyboard */,
+				7ACF91212B5FE28A003F3C42 /* Device.storyboard */,
+				7A66995A2B9ABA4C00891EC4 /* Login.storyboard */,
+				7AC141D42B83766300DC7E0F /* Password.storyboard */,
+				7A4AF5692B8C966B001E7944 /* Ekey.storyboard */,
+				7AD95EDA2B95E37B002BF19E /* Log.storyboard */,
+				7ACF91062B5FC32E003F3C42 /* Assets.xcassets */,
+				7ACF91082B5FC32E003F3C42 /* LaunchScreen.storyboard */,
+				7ACF910B2B5FC32E003F3C42 /* Info.plist */,
+				7ACF910C2B5FC32E003F3C42 /* main.m */,
+			);
+			path = "tuya-smart-lock-ios-sdk-sample";
+			sourceTree = "<group>";
+		};
+		7ACF91262B5FE38E003F3C42 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7A6699612B9ABA7200891EC4 /* LoginTableViewController.h */,
+				7A6699622B9ABA7200891EC4 /* LoginTableViewController.m */,
+				7A6699632B9ABA7200891EC4 /* RegisterTableViewController.h */,
+				7A6699602B9ABA7200891EC4 /* RegisterTableViewController.m */,
+				7A66995F2B9ABA7200891EC4 /* ResetPasswordTableViewController.h */,
+				7A66995C2B9ABA7200891EC4 /* ResetPasswordTableViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7ACF91382B60E579003F3C42 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				7ACF91232B5FE2BE003F3C42 /* DeviceListViewController.h */,
+				7ACF91242B5FE2BE003F3C42 /* DeviceListViewController.m */,
+				7ACF913C2B611C34003F3C42 /* DeviceDetailViewController.h */,
+				7ACF913D2B611C34003F3C42 /* DeviceDetailViewController.m */,
+				7A058A272B973AF200002DEB /* BLEDeviceActiveViewController.h */,
+				7A058A282B973AF200002DEB /* BLEDeviceActiveViewController.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		A45086549E21795CFC3EF139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7603B55D5D67706A81B0962 /* libPods-tuya-smart-lock-ios-sdk-sample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ACF90F62B5FC32C003F3C42 /* tuya-smart-lock-ios-sdk-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACF91102B5FC32E003F3C42 /* Build configuration list for PBXNativeTarget "tuya-smart-lock-ios-sdk-sample" */;
+			buildPhases = (
+				E205A42ED3D632FC50A4C80F /* [CP] Check Pods Manifest.lock */,
+				7ACF90F32B5FC32C003F3C42 /* Sources */,
+				7ACF90F42B5FC32C003F3C42 /* Frameworks */,
+				7ACF90F52B5FC32C003F3C42 /* Resources */,
+				263D4E13DC1C9972E2D463F1 /* [CP] Copy Pods Resources */,
+				282EE939E99BB7F5D2275E13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tuya-smart-lock-ios-sdk-sample";
+			productName = "tuya-smart-lock-ios-sdk-sample";
+			productReference = 7ACF90F72B5FC32C003F3C42 /* tuya-smart-lock-ios-sdk-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ACF90EF2B5FC32C003F3C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7ACF90F62B5FC32C003F3C42 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 7ACF90F22B5FC32C003F3C42 /* Build configuration list for PBXProject "tuya-smart-lock-ios-sdk-sample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 7ACF90EE2B5FC32C003F3C42;
+			productRefGroup = 7ACF90F82B5FC32C003F3C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ACF90F62B5FC32C003F3C42 /* tuya-smart-lock-ios-sdk-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ACF90F52B5FC32C003F3C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4AF5672B8C966B001E7944 /* Ekey.storyboard in Resources */,
+				7ACF911F2B5FE28A003F3C42 /* Device.storyboard in Resources */,
+				7AC141E02B84722D00DC7E0F /* Localizable.xcstrings in Resources */,
+				7AC141D22B83766300DC7E0F /* Password.storyboard in Resources */,
+				7ACF910A2B5FC32E003F3C42 /* LaunchScreen.storyboard in Resources */,
+				7ACF91072B5FC32E003F3C42 /* Assets.xcassets in Resources */,
+				7A66996C2B9ABE1300891EC4 /* Login.storyboard in Resources */,
+				7ABD0B802B97041D005883D2 /* ViewDetectConfigure.plist in Resources */,
+				7AA25A212BA1A3FC0007F9AB /* Main.storyboard in Resources */,
+				7AD95ED82B95E37B002BF19E /* Log.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		263D4E13DC1C9972E2D463F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tuya-smart-lock-ios-sdk-sample/Pods-tuya-smart-lock-ios-sdk-sample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tuya-smart-lock-ios-sdk-sample/Pods-tuya-smart-lock-ios-sdk-sample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tuya-smart-lock-ios-sdk-sample/Pods-tuya-smart-lock-ios-sdk-sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		282EE939E99BB7F5D2275E13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tuya-smart-lock-ios-sdk-sample/Pods-tuya-smart-lock-ios-sdk-sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tuya-smart-lock-ios-sdk-sample/Pods-tuya-smart-lock-ios-sdk-sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tuya-smart-lock-ios-sdk-sample/Pods-tuya-smart-lock-ios-sdk-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E205A42ED3D632FC50A4C80F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tuya-smart-lock-ios-sdk-sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ACF90F32B5FC32C003F3C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACF913B2B60FA64003F3C42 /* DigitalKeyListViewController.m in Sources */,
+				7AEDB5AF2B983DF80013F1A6 /* CreateSiteViewController.m in Sources */,
+				7AA25A1C2BA19F120007F9AB /* NSDate+Addition.m in Sources */,
+				7A8D34892B8F4081000D7328 /* CreateLimitEKeyTableViewController.m in Sources */,
+				7A058A292B973AF300002DEB /* BLEDeviceActiveViewController.m in Sources */,
+				7AD95EC42B906689002BF19E /* CreateOnceEKeyViewController.m in Sources */,
+				7ACF91022B5FC32D003F3C42 /* ViewController.m in Sources */,
+				7ACF90FC2B5FC32C003F3C42 /* AppDelegate.m in Sources */,
+				7A77F4C92B736029002E780D /* PasswordDetailViewController.m in Sources */,
+				7AD95EC12B906660002BF19E /* CreatePermanentEKeyViewController.m in Sources */,
+				7A77F4C62B732785002E780D /* PasswordListViewController.m in Sources */,
+				7A4AF56D2B8C96CA001E7944 /* EkeyDetailTableViewController.m in Sources */,
+				7A6699642B9ABA7200891EC4 /* LoginTableViewController.m in Sources */,
+				7A8ACC8B2B95F02B004CC4E4 /* LogCategoryTableViewController.m in Sources */,
+				7A6699652B9ABA7200891EC4 /* RegisterTableViewController.m in Sources */,
+				7AC141D82B837B9A00DC7E0F /* CreateLimitOnlinePasswordController.m in Sources */,
+				7ACF910D2B5FC32E003F3C42 /* main.m in Sources */,
+				7ACF90FF2B5FC32D003F3C42 /* SceneDelegate.m in Sources */,
+				7A8ACC882B95ED00004CC4E4 /* DeviceLogListViewController.m in Sources */,
+				7ACF913E2B611C34003F3C42 /* DeviceDetailViewController.m in Sources */,
+				7A8ACC8F2B96BA53004CC4E4 /* SiteListViewController.m in Sources */,
+				7ACF91252B5FE2BE003F3C42 /* DeviceListViewController.m in Sources */,
+				7AC141DB2B837D2C00DC7E0F /* CreateLimitOfflinePasswordController.m in Sources */,
+				7A66996A2B9ABAE900891EC4 /* Alert.m in Sources */,
+				7AC141DE2B837E5500DC7E0F /* PeriodSelectTableViewController.m in Sources */,
+				7A6699662B9ABA7200891EC4 /* ResetPasswordTableViewController.m in Sources */,
+				7A058A2D2B980D7100002DEB /* MeTableViewController.m in Sources */,
+				7ABD0B832B970972005883D2 /* SiteManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A4AF5692B8C966B001E7944 /* Ekey.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A4AF5682B8C966B001E7944 /* Base */,
+				7A4AF56A2B8C966B001E7944 /* mul */,
+			);
+			name = Ekey.storyboard;
+			sourceTree = "<group>";
+		};
+		7A66995A2B9ABA4C00891EC4 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6699592B9ABA4C00891EC4 /* Base */,
+				7A66995B2B9ABA4C00891EC4 /* mul */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		7AA25A202BA1A3FC0007F9AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA25A1F2BA1A3FC0007F9AB /* Base */,
+				7AA25A222BA1A3FC0007F9AB /* mul */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AC141D42B83766300DC7E0F /* Password.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AC141D32B83766300DC7E0F /* Base */,
+				7AC141D52B83766400DC7E0F /* mul */,
+			);
+			name = Password.storyboard;
+			sourceTree = "<group>";
+		};
+		7ACF91082B5FC32E003F3C42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACF91092B5FC32E003F3C42 /* Base */,
+				7ACF911C2B5FCBDC003F3C42 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7ACF91212B5FE28A003F3C42 /* Device.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACF91202B5FE28A003F3C42 /* Base */,
+				7ACF91222B5FE28A003F3C42 /* mul */,
+			);
+			name = Device.storyboard;
+			sourceTree = "<group>";
+		};
+		7AD95EDA2B95E37B002BF19E /* Log.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD95ED92B95E37B002BF19E /* Base */,
+				7AD95EDB2B95E37B002BF19E /* mul */,
+			);
+			name = Log.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ACF910E2B5FC32E003F3C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ACF910F2B5FC32E003F3C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ACF91112B5FC32E003F3C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF85EB71E65C3C7AC66B460 /* Pods-tuya-smart-lock-ios-sdk-sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU53J7686A;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tuya-smart-lock-ios-sdk-sample/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "打开蓝牙";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sr.smart.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ACF91122B5FC32E003F3C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944BF0B1F52AC315C76ADB8A /* Pods-tuya-smart-lock-ios-sdk-sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU53J7686A;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tuya-smart-lock-ios-sdk-sample/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "打开蓝牙";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sr.smart.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ACF90F22B5FC32C003F3C42 /* Build configuration list for PBXProject "tuya-smart-lock-ios-sdk-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACF910E2B5FC32E003F3C42 /* Debug */,
+				7ACF910F2B5FC32E003F3C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACF91102B5FC32E003F3C42 /* Build configuration list for PBXNativeTarget "tuya-smart-lock-ios-sdk-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACF91112B5FC32E003F3C42 /* Debug */,
+				7ACF91122B5FC32E003F3C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ACF90EF2B5FC32C003F3C42 /* Project object */;
+}

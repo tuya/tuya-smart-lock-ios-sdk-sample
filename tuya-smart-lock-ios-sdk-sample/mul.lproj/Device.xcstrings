@@ -1,0 +1,276 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "1FB-oS-D8j.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"1FB-oS-D8j\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "2Mn-lP-znY.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Unlock\"; ObjectID = \"2Mn-lP-znY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Unlock"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解锁"
+          }
+        }
+      }
+    },
+    "9GZ-HQ-C8p.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Device  online state\"; ObjectID = \"9GZ-HQ-C8p\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Device  online state"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设备在线状态"
+          }
+        }
+      }
+    },
+    "A4K-kp-vba.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Device ID\"; ObjectID = \"A4K-kp-vba\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Device ID"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设备ID"
+          }
+        }
+      }
+    },
+    "BeY-0Q-vAa.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Name\"; ObjectID = \"BeY-0Q-vAa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名称"
+          }
+        }
+      }
+    },
+    "bfd-Fb-Y0k.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Electric quantity\"; ObjectID = \"bfd-Fb-Y0k\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Electric quantity"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电量"
+          }
+        }
+      }
+    },
+    "dY4-7g-dsM.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"dY4-7g-dsM\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "详情"
+          }
+        }
+      }
+    },
+    "hga-Nb-tRv.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"Start search\"; ObjectID = \"hga-Nb-tRv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Start search"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始搜索"
+          }
+        }
+      }
+    },
+    "IUg-7G-1nv.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Connecting...\"; ObjectID = \"IUg-7G-1nv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Connecting..."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在连接..."
+          }
+        }
+      }
+    },
+    "iYF-zp-7te.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"iYF-zp-7te\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "jqH-5n-UQq.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"E-Key\"; ObjectID = \"jqH-5n-UQq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "E-Key"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电子钥匙"
+          }
+        }
+      }
+    },
+    "juS-gq-5Ov.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Log\"; ObjectID = \"juS-gq-5Ov\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Log"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日志"
+          }
+        }
+      }
+    },
+    "oAM-qd-1rg.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"oAM-qd-1rg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标题"
+          }
+        }
+      }
+    },
+    "qfF-Pp-obh.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Password\"; ObjectID = \"qfF-Pp-obh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Password"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码"
+          }
+        }
+      }
+    },
+    "qnn-If-KCa.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"qnn-If-KCa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "xde-P6-6gd.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Delete device\"; ObjectID = \"xde-P6-6gd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delete device"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除设备"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

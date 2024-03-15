@@ -1,0 +1,252 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "1Bs-hZ-aCd.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Please enter\"; ObjectID = \"1Bs-hZ-aCd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Please enter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入"
+          }
+        }
+      }
+    },
+    "4ks-wH-S0o.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Latitude\"; ObjectID = \"4ks-wH-S0o\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Latitude"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "维度"
+          }
+        }
+      }
+    },
+    "6ml-a1-Rr2.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Please enter\"; ObjectID = \"6ml-a1-Rr2\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Please enter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入"
+          }
+        }
+      }
+    },
+    "17C-u5-pc6.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Geoname\"; ObjectID = \"17C-u5-pc6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Geoname"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地位位置名称"
+          }
+        }
+      }
+    },
+    "aeL-mJ-30t.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"aeL-mJ-30t\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "dgP-Vk-98A.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Longitude\"; ObjectID = \"dgP-Vk-98A\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Longitude"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "经度"
+          }
+        }
+      }
+    },
+    "DOC-4T-Tic.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Root View Controller\"; ObjectID = \"DOC-4T-Tic\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Root View Controller"
+          }
+        }
+      }
+    },
+    "HdV-7o-sdR.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"HdV-7o-sdR\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "jYx-LT-7eh.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Nickname\"; ObjectID = \"jYx-LT-7eh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Nickname"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "昵称"
+          }
+        }
+      }
+    },
+    "nNX-63-U8U.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Log out\"; ObjectID = \"nNX-63-U8U\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Log out"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登出"
+          }
+        }
+      }
+    },
+    "TAP-ZQ-o6E.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Please enter\"; ObjectID = \"TAP-ZQ-o6E\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Please enter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入"
+          }
+        }
+      }
+    },
+    "TJc-60-7c8.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Name\"; ObjectID = \"TJc-60-7c8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名称"
+          }
+        }
+      }
+    },
+    "vxL-Xh-jnx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Account\"; ObjectID = \"vxL-Xh-jnx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Account"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "账号"
+          }
+        }
+      }
+    },
+    "y5J-jH-AFd.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Please enter\"; ObjectID = \"y5J-jH-AFd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Please enter"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入"
+          }
+        }
+      }
+    },
+    "Ynu-hw-ag8.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"Ynu-hw-ag8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

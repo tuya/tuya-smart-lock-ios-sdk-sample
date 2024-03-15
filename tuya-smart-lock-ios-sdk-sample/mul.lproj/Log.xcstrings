@@ -1,0 +1,84 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ChI-24-L9y.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"ChI-24-L9y\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "LSg-M7-U4K.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Operation records\"; ObjectID = \"LSg-M7-U4K\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Operation records"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "操作日志"
+          }
+        }
+      }
+    },
+    "NYW-hH-iSX.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Opening records\"; ObjectID = \"NYW-hH-iSX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Opening records"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开门日志"
+          }
+        }
+      }
+    },
+    "PPo-0N-RMD.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Alarm records\"; ObjectID = \"PPo-0N-RMD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Alarm records"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "告警日志"
+          }
+        }
+      }
+    },
+    "wtk-l9-KRm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"wtk-l9-KRm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
